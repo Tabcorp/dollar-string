@@ -1,0 +1,32 @@
+{
+  "name": "dollar-string",
+  "version": "0.0.0",
+  "description": "Utility for parsing dollar strings",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TabDigital/dollar-string.git"
+  },
+  "keywords": [
+    "currency",
+    "dollar",
+    "string",
+    "convert",
+    "parse"
+  ],
+  "author": "Tabcorp Digital Technology Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TabDigital/dollar-string/issues"
+  },
+  "dependencies": {
+    "big.js": "~2.5.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "should": "~4.0.4"
+  }
+}
