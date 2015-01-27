@@ -11,14 +11,17 @@ var addDollarSign = function(value) {
 }
 
 exports.toCents = function(dollarString) {
-  if(typeof(dollarString) !== 'string') {
-    return dollarString;
+  if (!exports.valid(dollarString)) {
+    return null;
   }
   dollarString = stripDollarSign(dollarString);
   return parseInt(big(dollarString).times(100).toFixed(0));
 }
 
 exports.toDollars = function(dollarString) {
+  if (!exports.valid(dollarString)) {
+    return null;
+  }
   return parseFloat(stripDollarSign(dollarString));
 }
 
@@ -52,5 +55,5 @@ exports.multipleOf = function(val1, val2) {
 }
 
 exports.valid = function(value) {
-  return VALID_DOLLAR_STRING_REGEX.test(value);
+  return typeof(value) == 'string' && VALID_DOLLAR_STRING_REGEX.test(value);
 }

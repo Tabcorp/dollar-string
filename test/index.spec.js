@@ -12,6 +12,12 @@ describe('DollarString', function(){
       dollarString.toCents('$1.50').should.equal(150);
       dollarString.toCents('$2.22').should.equal(222);
     });
+
+    it('should return null or undefined for invalid input', function() {
+      should.not.exist(dollarString.toCents('abc'));
+      should.not.exist(dollarString.toCents(''));
+      should.not.exist(dollarString.toCents());
+    });
   });
 
   describe('ToDollars', function() {
@@ -22,6 +28,12 @@ describe('DollarString', function(){
     it('should convert dollar string with cents to number in dollars', function() {
       dollarString.toDollars('$1.50').should.equal(1.5);
       dollarString.toDollars('$2.22').should.equal(2.22);
+    });
+
+    it('should return null or undefined for invalid input', function() {
+      should.not.exist(dollarString.toDollars('abc'));
+      should.not.exist(dollarString.toDollars(''));
+      should.not.exist(dollarString.toDollars());
     });
   });
 
@@ -89,6 +101,12 @@ describe('DollarString', function(){
       dollarString.valid("$1.004").should.equal(false);
       dollarString.valid("$1.00c").should.equal(false);
       dollarString.valid("$1.a0").should.equal(false);
+      dollarString.valid("abc").should.equal(false);
+      dollarString.valid("").should.equal(false);
+      dollarString.valid(123).should.equal(false);
+      dollarString.valid({}).should.equal(false);
+      dollarString.valid([]).should.equal(false);
+      dollarString.valid().should.equal(false);
     });
   })
 });
