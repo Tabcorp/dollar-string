@@ -93,5 +93,5 @@ returns
 
 ``` js
 console.log(dollarString.multipleOf("$2.00", "$1.25"));  // false
-console.log(dollarString.compare("$10.00", "$1"));   // true
+console.log(dollarString.multipleOf("$10.00", "$1"));   // true
 ```
