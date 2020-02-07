@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TabDigital/dollar-string.git"
+    "url": "https://github.com/Tabcorp/dollar-string.git"
   },
   "keywords": [
     "currency",
@@ -20,7 +20,7 @@
   "author": "Tabcorp Digital Technology Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TabDigital/dollar-string/issues"
+    "url": "https://github.com/Tabcorp/dollar-string/issues"
   },
   "dependencies": {
     "big.js": "~5.2.2"

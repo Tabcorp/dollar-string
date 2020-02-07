@@ -3,11 +3,11 @@
 > Helper utilities for dealing with dollar strings.
 
 [![NPM](http://img.shields.io/npm/v/dollar-string.svg?style=flat)](https://npmjs.org/package/dollar-string)
-[![License](http://img.shields.io/npm/l/dollar-string.svg?style=flat)](https://github.com/TabDigital/dollar-string)
+[![License](http://img.shields.io/npm/l/dollar-string.svg?style=flat)](https://github.com/Tabcorp/dollar-string)
 
-[![Build Status](http://img.shields.io/travis/TabDigital/dollar-string.svg?style=flat)](http://travis-ci.org/TabDigital/dollar-string)
-[![Dependencies](http://img.shields.io/david/TabDigital/dollar-string.svg?style=flat)](https://david-dm.org/TabDigital/dollar-string)
-[![Dev dependencies](http://img.shields.io/david/dev/TabDigital/dollar-string.svg?style=flat)](https://david-dm.org/TabDigital/dollar-string)
+[![Build Status](http://img.shields.io/travis/Tabcorp/dollar-string.svg?style=flat)](http://travis-ci.org/Tabcorp/dollar-string)
+[![Dependencies](http://img.shields.io/david/Tabcorp/dollar-string.svg?style=flat)](https://david-dm.org/Tabcorp/dollar-string)
+[![Dev dependencies](http://img.shields.io/david/dev/Tabcorp/dollar-string.svg?style=flat)](https://david-dm.org/Tabcorp/dollar-string)
 
 
 ## Getting started
