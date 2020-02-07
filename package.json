@@ -23,7 +23,7 @@
     "url": "https://github.com/TabDigital/dollar-string/issues"
   },
   "dependencies": {
-    "big.js": "~3.0.0"
+    "big.js": "~5.2.2"
   },
   "devDependencies": {
     "mocha": "~7.0.1",
