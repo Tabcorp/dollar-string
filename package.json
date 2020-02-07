@@ -1,6 +1,6 @@
 {
   "name": "dollar-string",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Utility for parsing dollar strings",
   "main": "src/index.js",
   "scripts": {
