@@ -23,7 +23,7 @@
     "url": "https://github.com/Tabcorp/dollar-string/issues"
   },
   "dependencies": {
-    "big.js": "~5.2.2"
+    "big.js": "~6.1.1"
   },
   "devDependencies": {
     "mocha": "~8.1.0",
